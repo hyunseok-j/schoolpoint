@@ -1,16 +1,25 @@
 package com.calculation.schoolpoint.model;
 
 public class UserVO {
-    private int seq;
     private String id;
     private String password;
+    private String name;
+    private String schoolNumber;
 
-    public int getSeq() {
-        return seq;
+    public String getName() {
+        return name;
     }
 
-    public void setSeq(int seq) {
-        this.seq = seq;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSchoolNumber() {
+        return schoolNumber;
+    }
+
+    public void setSchoolNumber(String schoolNumber) {
+        this.schoolNumber = schoolNumber;
     }
 
     public String getId() {

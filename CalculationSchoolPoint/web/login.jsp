@@ -16,8 +16,6 @@
     <h1>로그인</h1>
     <hr>
     <form action="login.do" method="post">
-        <input type="hidden" name="seq" value="1">
-        <!-- value 수정 필요 : 입력되는 id와 password에 따라 알맞은 seq가 들어가도록 해야함-->
         <table border="1" cellpadding="0" cellspacing="0">
             <tr>
                 <td bgcolor="orange">아이디</td>

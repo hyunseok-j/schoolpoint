@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DTD 선언 -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- SQL Mapping -->
+<mapper namespace="UserDAO">
+
+    <insert id="registerUser" parameterType="userVO">
+        <![CDATA[
+            INSERT INTO USER(
+                ID,
+                PASSWORD,
+                NAME,
+                SCHOOLNUMBER
+            ) VALUES (
+                #{id},
+                #{password},
+                #{name},
+                #{schoolNumber}
+            )
+        ]]>
+    </insert>
+
+    <update id="updateBoard">
+        update board set title=#{title}, content=#{content} where ID=#{id}
+    </update>
+
+    <delete id="deleteBoard">
+        delete board where seq=#{seq}
+    </delete>
+
+    <select id="getUser" parameterType="userVO" resultType="userVO">
+        <![CDATA[
+            SELECT * FROM USER WHERE ID=#{id}
+        ]]>
+    </select>
+
+    <select id="loginUser" parameterType="userDTO" resultType="userVO">
+        <![CDATA[
+            SELECT * FROM USER WHERE ID = #{id} AND PASSWORD = #{password};
+        ]]>
+    </select>
+
+    <select id="getUserList" resultType="userVO">
+         <![CDATA[
+            SELECT * FROM USER
+        ]]>
+    </select>
+
+</mapper>

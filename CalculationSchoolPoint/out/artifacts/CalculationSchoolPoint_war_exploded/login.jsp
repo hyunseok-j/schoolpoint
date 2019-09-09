@@ -16,7 +16,6 @@
     <h1>로그인</h1>
     <hr>
     <form action="login.do" method="post">
-        <input type="hidden" name="seq" value="1">
         <table border="1" cellpadding="0" cellspacing="0">
             <tr>
                 <td bgcolor="orange">아이디</td>

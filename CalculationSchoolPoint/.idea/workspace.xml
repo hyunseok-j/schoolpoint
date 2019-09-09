@@ -6,22 +6,83 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2911cbe5-874e-49f2-ac7f-41782ae9d146" name="Default Changelist" comment="" />
+    <list default="true" id="2911cbe5-874e-49f2-ac7f-41782ae9d146" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_3_2_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CalculationSchoolPoint_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CalculationSchoolPoint_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculationSchoolPoint.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CalculationSchoolPoint.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/WEB-INF/classes/com/calculation/schoolpoint/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/WEB-INF/classes/com/calculation/schoolpoint/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/WEB-INF/classes/com/calculation/schoolpoint/controller/ViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/WEB-INF/classes/com/calculation/schoolpoint/controller/ViewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/WEB-INF/classes/com/calculation/schoolpoint/model/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/WEB-INF/classes/com/calculation/schoolpoint/model/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/WEB-INF/classes/com/calculation/schoolpoint/model/UserRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/WEB-INF/classes/com/calculation/schoolpoint/model/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/WEB-INF/classes/com/calculation/schoolpoint/model/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/WEB-INF/classes/com/calculation/schoolpoint/model/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/WEB-INF/classes/com/calculation/schoolpoint/model/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/WEB-INF/classes/com/calculation/schoolpoint/model/UserVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/WEB-INF/classes/com/calculation/schoolpoint/model/UserVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CalculationSchoolPoint_war_exploded/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculation/schoolpoint/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calculation/schoolpoint/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculation/schoolpoint/controller/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calculation/schoolpoint/controller/ViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculation/schoolpoint/model/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calculation/schoolpoint/model/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculation/schoolpoint/model/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calculation/schoolpoint/model/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculation/schoolpoint/model/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calculation/schoolpoint/model/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculation/schoolpoint/model/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calculation/schoolpoint/model/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/calculation/schoolpoint/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/calculation/schoolpoint/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/calculation/schoolpoint/controller/ViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/calculation/schoolpoint/controller/ViewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/calculation/schoolpoint/model/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/calculation/schoolpoint/model/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/calculation/schoolpoint/model/UserRowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/calculation/schoolpoint/model/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/calculation/schoolpoint/model/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/calculation/schoolpoint/model/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/calculation/schoolpoint/model/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/calculation/schoolpoint/model/UserVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/calculation/schoolpoint/model/UserVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -38,22 +99,28 @@
     </option>
   </component>
   <component name="ProjectId" id="1Q00tl3Q0QpqcDcfZg8dkqoMqNM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../comspringstuding" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Projects_src/comspringstuding" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\정현석\Desktop\Projects_src\CalculationSchoolPoint\web" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HyunSeok Jung\Desktop\gitdir\CalculationSchoolPoint\web" />
+      <recent name="C:\Users\HyunSeok Jung\Desktop\gitdir\CalculationSchoolPoint\src\main\resources\mapping" />
+      <recent name="C:\Users\HyunSeok Jung\Desktop\gitdir\CalculationSchoolPoint\src\main\resources\config" />
       <recent name="C:\Users\정현석\Desktop\Projects_src\CalculationSchoolPoint\web\WEB-INF\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HyunSeok Jung\Desktop\gitdir\CalculationSchoolPoint\src\main\resources\config" />
+      <recent name="C:\Users\정현석\Desktop\Projects_src\CalculationSchoolPoint\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -70,7 +137,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.431" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.431" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login.jsp" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/home.jsp" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="CalculationSchoolPoint:war exploded">
@@ -157,10 +224,28 @@
       <workItem from="1566990035513" duration="2812000" />
       <workItem from="1567064094562" duration="14769000" />
       <workItem from="1567130986553" duration="3301000" />
+      <workItem from="1567144418112" duration="6092000" />
+      <workItem from="1567262924906" duration="2954000" />
+      <workItem from="1567482223850" duration="2293000" />
+      <workItem from="1567834450845" duration="19209000" />
+      <workItem from="1567990956875" duration="2647000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -16,16 +16,14 @@
 <body>
 <center>
     <h1>회원 목록</h1>
-    <h3>${user.id}님 환영합니다....<!--<a href="logout.do">Log-out</a>--></h3>
+    <h3>${user.name}님 환영합니다....<!--<a href="logout.do">Log-out</a>--></h3>
     <form action="view.jsp" method="post">
     <table border="1" cellpadding="0" cellspacing="0" width="300">
         <tr>
-            <th bgcolor="orange" width="100">번호</th>
             <th bgcolor="orange" width="200">아이디</th>
         </tr>
         <c:forEach items="${userList}" var="user">
         <tr>
-            <td>${user.seq}</td>
             <td align="left"><!--<a href="getBoard.do?seq=board.getSeq()>-->${user.id}</td>
         </tr>
         </c:forEach>

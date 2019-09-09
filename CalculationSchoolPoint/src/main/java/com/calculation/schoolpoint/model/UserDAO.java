@@ -1,5 +1,6 @@
 package com.calculation.schoolpoint.model;
 
+import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -14,43 +15,24 @@ import java.util.List;
 
 @Repository
 public class UserDAO {
+
     @Autowired
-//    @Qualifier("template")
-    private JdbcTemplate template;
+    private SqlSessionTemplate sqlSessionTemplate;
 
-    private final String GET_USER = "select * from user where id=? and password=?";
-    private final String GETLIST_USER = "select * from user";
-
-//    @Autowired
-//    @Qualifier("template")
-//    public void setTemplate(JdbcTemplate template){
-//        this.template = template;
-//    }
+    public void registerUser(UserVO vo){
+        sqlSessionTemplate.insert("UserDAO.registerUser",vo);
+    }
 
     public UserVO getUser(UserVO vo){
+        return (UserVO)sqlSessionTemplate.selectOne("UserDAO.getUser",vo);
+    }
 
-        Object[] args ={vo.getId(),vo.getPassword()};
-        return (UserVO)this.template.queryForObject(GET_USER,args,new UserRowMapper());
-
+    public UserVO login(UserDTO dto){
+        return (UserVO)sqlSessionTemplate.selectOne("UserDAO.loginUser",dto);
     }
 
     public List<UserVO> getListUser(UserVO vo){
-
-        return this.template.query(GETLIST_USER,new UserRowMapper());
-
+        return sqlSessionTemplate.selectList("UserDAO.getUserList");
     }
 
-}
-
-class UserRowMapper implements RowMapper<UserVO> {
-
-    public UserVO mapRow(ResultSet resultSet, int i) throws SQLException {
-
-        UserVO user = new UserVO();
-        user.setSeq(resultSet.getInt("seq"));
-        user.setId(resultSet.getString("id"));
-        user.setPassword(resultSet.getString("password"));
-
-        return user;
-    }
 }
